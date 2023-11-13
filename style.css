@@ -3,9 +3,9 @@ html {
   width: 100%;
 }
 h1 {
-  font-size:200px;
+  font-size:100px;
 }
 p1 {
-  size: -4;
+  font-size:8px;
   color: #606060;
 }
