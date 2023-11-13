@@ -3,8 +3,7 @@ html {
   width: 100%;
 }
 h1 {
-  size: +5;
-  text-align: center;
+  font-size:200px;
 }
 p1 {
   size: -4;
