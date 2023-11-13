@@ -3,9 +3,10 @@ html {
   width: 100%;
 }
 h1 {
-  font-size:100px;
+  font-size:80px;
 }
 p1 {
   font-size:8px;
+  text-align: left;
   color: #606060;
 }
