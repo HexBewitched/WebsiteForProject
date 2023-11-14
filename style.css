@@ -10,3 +10,8 @@ p1 {
   text-align: left;
   color: #606060;
 }
+bar{
+  width: 100%;
+  height: 10%;
+  background-color: black;
+}
