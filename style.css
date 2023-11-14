@@ -10,6 +10,11 @@ p1 {
   text-align: left;
   color: #606060;
 }
+p2{
+  font-size: 16px;
+  text-align: left;
+  color: #000000;
+}
 #navBar{
   width: 100%;
   background-color: black;
@@ -20,7 +25,6 @@ nav ul {
   margin: 0;
   padding-left: 0;
 }
-
 nav a {
   text-decoration: none;
   font-size: 17px;
@@ -35,27 +39,23 @@ nav a {
   padding-top: 50px;
   font-weight: bold;
 }
-
 nav a:hover,
 nav li:focus-within > a {
   background: #4b4b4b;
   cursor: pointer;
 }
-
 .dropdown-content {
   min-width: max-content;
   overflow: hidden;
   max-height: 0;
   transition: max-height 2s;
 }
-
 .dropdown:hover .dropdown-content,
 .dropdown:focus .dropdown-content,
 .dropdown:focus-within .dropdown-content {
   max-height: 3000px;
 }
-
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 100%) {
   
   nav > ul > li {
   float: left;
