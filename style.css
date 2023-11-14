@@ -19,6 +19,7 @@ p2{
   width: 100%;
   background-color: black;
   height: 10%;
+  margin: 0;
 }
 nav ul {
   list-style: none;
@@ -27,15 +28,15 @@ nav ul {
 }
 nav a {
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   color: #ffffff;
   background-color: #000000;
   padding: 1rem;
   transition: background 0.5s;
   display: block;
   outline: 0;
-  width: 240px;
-  height: 120px;
+  width: 12.5%;
+  height: 10%;
   padding-top: 50px;
   font-weight: bold;
 }
