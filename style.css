@@ -15,3 +15,63 @@ p1 {
   background-color: black;
   height: 10%;
 }
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 17px;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 1rem;
+  transition: background 0.5s;
+  display: block;
+  outline: 0;
+  width: 240px;
+  height: 120px;
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav li:focus-within > a {
+  background: #4b4b4b;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  min-width: max-content;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 2s;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown:focus .dropdown-content,
+.dropdown:focus-within .dropdown-content {
+  max-height: 3000px;
+}
+
+@media screen and (min-width: 1000px) {
+  
+  nav > ul > li {
+  float: left;
+  }
+  
+  .dropdown {
+      position: relative;
+  }
+  
+  .dropdown-content {
+      position: absolute;  
+      width: max-content;
+  }
+  
+  .content {
+      clear: both;
+  }
+  
+}
