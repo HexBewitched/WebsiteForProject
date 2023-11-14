@@ -3,12 +3,16 @@ html {
   width: 100%;
 }
 h1 {
-  font-size:150px;
+  font-size:300px;
 }
 p1 {
   font-size:12px;
   text-align: left;
   color: #606060;
+}
+p2{
+  font-size: 24px;
+  color: #ffffff;
 }
 #header{
   width: 100%;
