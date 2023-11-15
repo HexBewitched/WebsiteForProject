@@ -29,12 +29,12 @@ nav a {
   font-size: 18px;
   color: #ffffff;
   background-color: #000000;
-  padding: 0px;
+  padding: 0;
   transition: background 0.5s;
   display: block;
   outline: 0;
   width: 12.5vw;
-  padding-top: 0px;
+  padding-top: 0;
   font-weight: bold;
 }
 nav a:hover,
