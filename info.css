@@ -4,7 +4,6 @@ h1{
 #navBar{
     width: 100%;
     background-color: #000000;
-    /*height: 10%;*/
 }
 nav ul {
     list-style: none;
@@ -22,7 +21,6 @@ nav a {
     display: block;
     outline: 0;
     width: 12.5vw;
-    /*height: 10%;*/
     padding-top: 0px;
     font-weight: bold;
 }
