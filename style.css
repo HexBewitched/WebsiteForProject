@@ -23,7 +23,7 @@ p2{
 }
 nav ul {
   list-style: none;
-  margin: 0;
+  margin: 1rem;
   padding-left: 1rem;
 }
 nav a {
