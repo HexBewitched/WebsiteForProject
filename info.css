@@ -4,10 +4,16 @@ h1{
 p2{
     font-size: 18px;
 }
+p3{
+    font-size: 14px;
+    color: white;
+}
 #footer{
     width: 100%;
     background-color: #000000;
     height: 10%;
+    position: absolute;
+    bottom: 0px;
   }
 #navBar{
     width: 100%;
