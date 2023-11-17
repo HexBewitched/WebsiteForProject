@@ -6,7 +6,7 @@ h1 {
   font-size:300px;
 }
 p1 {
-  font-size:8px;
+  font-size:10px;
   text-align: left;
   color: #606060;
 }
@@ -44,7 +44,7 @@ nav a {
   transition: background 0.5s;
   display: block;
   outline: 0;
-  width: 12.5vw;
+  width: 12vw;
   padding-top: 0;
   font-weight: bold;
 }
